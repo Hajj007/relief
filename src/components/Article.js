@@ -13,7 +13,7 @@ const Article = props => {
         if (props.id === "SHOULDER PAIN - HOW TO FIX IT") {
             return (
                 <article className="article">
-                    <img src={ArImg} alt="Ból barku" />
+                    <img src={ArImg} alt="Shoulder Pain" />
                     <h2>SHOULDER PAIN - HOW TO FIX IT</h2>
                     <p>Shoulder injuries arise in a variety of ways and concern:</p>
                     <ul>
@@ -57,7 +57,7 @@ const Article = props => {
         } else if (props.id === "ELBOW PAIN.") {
             return (
                 <article className="article">
-                    <img src={ArImg2} alt="BÓL ŁOKCIA" />
+                    <img src={ArImg2} alt="Elbow Pain" />
                     <h2>ELBOW PAIN.</h2>
                     <p>Each of us has hit our elbow at least once in our life and felt the piercing pain and suffering often called "electricity". This feeling is caused by irritation of the ulnar nerve and fortunately passes quickly. However, what to do when the elbow does not stop hurting, or our hand goes numb and our fingers ache and we feel that our hand is getting weaker? Apart from injuries such as: fracture, dislocation, impact, in my practice I have found two basic causes of pain in the elbow : pain from muscle overload, and pressure on the nerve running to the hand.</p>
                     <h3>Pain from overuse - tennis elbow.</h3>
@@ -79,7 +79,7 @@ const Article = props => {
             return (
 
                 <article className="article">
-                    <img src={ArImg3} alt="BÓL KRĘGOSŁUPA" />
+                    <img src={ArImg3} alt="Spine Pain" />
                     <h2>SPINE PAIN - WHAT TO DO</h2>
                     <p>Back pain affects more and more young people. Maybe you are an athlete and you feel pain in your loins when lifting weights? Maybe you work every day sitting at your desk and think that your back hurts from sitting? Maybe you are a young woman who has just given birth and is told that back pain is normal and will be. Or maybe you are in your forties, you have hernias, degenerations and you think that nothing can be done about it. Regardless of which group you belong to, you need to know that back pain can be overcome. Find out how!</p>
                     <h3>Structure of the spine.</h3>
@@ -120,7 +120,7 @@ You certainly shouldn't wait for it to pass. </p>
         } else if (props.id === "WHAT TO DO IF THE KNEE BURN") {
             return (
                 <article className="article">
-                    <img src={ArImg4} alt="Ból barku" />
+                    <img src={ArImg4} alt="Knee Burn" />
                     <h2>WHAT TO DO IF THE KNEE BURN</h2>
                     <p>If you are reading this, you probably have a problem with knee pain. Maybe it gets stuck sometimes, something "shoots", or maybe you hear an unpleasant friction when you try to straighten your leg. All of these situations can be caused by a direct injury, for example you played football, you slipped on the grass, something shot your knee and now it hurts. The problem may also be due to overload, because it is often the case that a patient comes to the office who claims that he has not had an accident - and the knee hurts.</p>
                     <h3>The most common knee injuries.</h3>
@@ -167,7 +167,7 @@ Ligaments. There are a large number of ligaments in the knee, they are very shor
         else if (props.id === "HIP CLICKING - FIX IT!") {
             return (
                 <article className="article">
-                    <img src={ArImg5} alt="BIODRO TRZASKAJĄCE" />
+                    <img src={ArImg5} alt="Hip Clicking" />
                     <h2>HIP CLICKING - FIX IT!</h2>
                     <p>The jumping/shooting hip is, next to degeneration of the hip joint, probably the most common ailment in this area of the body. Although it is often painless, and the only disturbing symptom is a palpable (and sometimes audible) skipping, this problem should not be underestimated.</p>
                     <img src={AImg} alt="" />
